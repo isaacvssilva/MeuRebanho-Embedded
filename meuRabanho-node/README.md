@@ -10,21 +10,69 @@ Para simplificar o processo de instalação, você pode usar o script fornecido 
 
    ```bash
    cd ~/
+   ```
 
+   ```bash
    wget https://raw.githubusercontent.com/raspberrypi/pico-setup/master/pico_setup.sh
+   ```
 
+   ```bash
    chmod +x pico_setup.sh
+   ```
 
+   ```bash
    ./pico_setup.sh
+   ```
 
-sudo reboot
-```
+   ```bash
+   sudo reboot
+   ```
 
 ## Compilação do projeto
 
 ```bash
+mkdir build
+```
+
+```bash
 cd build/ 
-cmake -DPICO_BOARD=pico_w ../src/
+```
+
+```bash
+cmake -DPICO_BOARD=pico ../src/
+```
+
+```bash
 make -j4
+```
+
+```bash
 cp app.uf2 /media/isaac/RPI-RP2/
 ```
+
+## pico-lora
+
+LoRa communication library for Raspberry Pi RP2040 Microcontroller.
+
+This library is written for RP2040 C++ SDK.
+
+## Supported Hardware
+
+* RP2040 boards
+  * Raspberry Pi Pico
+* Semtech SX1276/77/78/79 based LoRa boards
+
+### Default Pinout
+
+| Raspberry Pi Pico-Zero | Semtech SX1276 |
+| ----------------- | -------------- |
+| 3.3V | VCC |
+| GND | GND |
+| GPIO 14 | SCK |
+| GPIO 15 | MOSI |
+| GPIO 12 | MISO |
+| GPIO 27 | DIO0 / G0 |
+| GPIO 13 | NSS / CS |
+| GPIO 26 | RESET |
+
+Default Pinout can be overrided with setPins() function
