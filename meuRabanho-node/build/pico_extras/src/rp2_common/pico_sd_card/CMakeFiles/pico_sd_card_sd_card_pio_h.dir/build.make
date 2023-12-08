@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/meuRabanho-node/src
+CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/pico-zero/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/meuRabanho-node/build
+CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/pico-zero/build
 
 # Utility rule file for pico_sd_card_sd_card_pio_h.
 
@@ -69,8 +69,8 @@ include pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
 
 pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h: /home/isaac/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating sd_card.pio.h"
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_sd_card && ../../../../pioasm/pioasm -o c-sdk /home/isaac/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating sd_card.pio.h"
+	cd /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_sd_card && ../../../../pioasm/pioasm -o c-sdk /home/isaac/pico/pico-extras/src/rp2_common/pico_sd_card/sd_card.pio /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
 
 pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h
 pico_sd_card_sd_card_pio_h: pico_extras/src/rp2_common/pico_sd_card/sd_card.pio.h
@@ -82,10 +82,10 @@ pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.di
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/build
 
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/clean:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_sd_card && $(CMAKE_COMMAND) -P CMakeFiles/pico_sd_card_sd_card_pio_h.dir/cmake_clean.cmake
+	cd /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_sd_card && $(CMAKE_COMMAND) -P CMakeFiles/pico_sd_card_sd_card_pio_h.dir/cmake_clean.cmake
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/clean
 
 pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/depend:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/pico/Projetos/meuRabanho-node/src /home/isaac/pico/pico-extras/src/rp2_common/pico_sd_card /home/isaac/pico/Projetos/meuRabanho-node/build /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_sd_card /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/pico/Projetos/pico-zero/src /home/isaac/pico/pico-extras/src/rp2_common/pico_sd_card /home/isaac/pico/Projetos/pico-zero/build /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_sd_card /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico_extras/src/rp2_common/pico_sd_card/CMakeFiles/pico_sd_card_sd_card_pio_h.dir/depend
 

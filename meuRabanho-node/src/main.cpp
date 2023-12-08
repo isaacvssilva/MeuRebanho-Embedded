@@ -8,7 +8,7 @@
  *        Version:  1.0
  *        Created:  24/09/2023 21:12:29
  *       Revision:  none
- *       Compiler:  arm-linux-gnueabihf-
+ *       Compiler:  -
  *
  *         Author:  Isaac Vinicius, Gislan Souza
  *                  isaacvinicius2121@alu.ufc.br, gislansouza@alu.ufc.br
@@ -36,10 +36,11 @@
 #define UART_PRINT_BAUD_RATE 115200
 
 #define UART_GPS_ID uart1
-#define UART_GPS_TX 4
-#define UART_GPS_RX 5
+#define UART_GPS_TX 8
+#define UART_GPS_RX 9
 #define UART_GPS_BAUD_RATE 9600
-
+#define LED_RED 5
+#define LED_BLUE 6
 #define BUFFER_SIZE 50            /* Definindo o tamanho do buffer para armazenar os caracteres recebidos */
 char receive_buffer[BUFFER_SIZE]; /* Armazenando os caracteres recebidos em um buffer */
 size_t receive_buffer_index = 0;  /* Mantendo um indice atual no buffer */
@@ -50,11 +51,12 @@ char latitude[20];
 char longitude[20];
 char Coordenadas[50];
 
+
 /*
  * ===  FUNCTION  ======================================================================
  *         Name:  convertToDegree
  *  Description:  Funcao para converter para os valores reais de coordenadas
- * Reference: https://microcontrollerslab.com/neo-6m-gps-module-raspberry-pi-pico-micropython/
+ * Referencia: https://microcontrollerslab.com/neo-6m-gps-module-raspberry-pi-pico-micropython/
  * =====================================================================================
  */
 double convertToDegree(double coordinate) {
@@ -147,7 +149,6 @@ void on_uart_gps_irq(void) {
     }
   }
 }
-
 /* flag para indicar a o despertar do microcontrolador */
 static bool awake;
 
@@ -172,7 +173,6 @@ static void sleep_callback(void) {
  * ===  FUNCTION  ======================================================================
  *         Name:  rtc_sleep
  *  Description:  Funcao que configura o RTC para entrar no modo de suspensao
- * Reference:https://ghubcoder.github.io/posts/awaking-the-pico/
  * =====================================================================================
  */
 static void rtc_sleep(int8_t minute_to_sleep_to, int8_t second_to_sleep_to) {
@@ -186,7 +186,7 @@ static void rtc_sleep(int8_t minute_to_sleep_to, int8_t second_to_sleep_to) {
       .sec = second_to_sleep_to};/* Definindo a data e a hora para o alarme RTC. */
 
   /* Exibindo uma mensagem indicando que o sistema esta entrando no modo de suspensao */
-  uart_puts(UART_PRINT_ID, "Indo dormindo.......\n\r");
+  uart_puts(UART_PRINT_ID, "Indo dormir.......\n\r");
   uart_default_tx_wait_blocking();
 
   /* Entrando no modo de suspensao ate o tempo definido no alarme e chamando o callback de acordar */
@@ -254,28 +254,52 @@ void uart_config(void) {
  */
 uint8_t counter = 0;
 void lora_init(void) {
-  uart_puts(UART_PRINT_ID, "Inicializando LoRa...\n\r");
   /* 433E6 para Ásia */
   /* 866E6 para Europa */
   /* 915E6 para América do Norte */
+  gpio_put(LED_RED, 1);
   if (!LoRa.begin(915E6)) {
-    uart_puts(UART_PRINT_ID, "Falha na inicializacao LoRa\n\r");
+    //uart_puts(UART_PRINT_ID, "Falha na inicializacao LoRa\n\r");
     while (1);
   }
   /* Definindo a palavra de sincronizacao (sync word) para corresponder ao transmissor */
   /* A palavra de sincronizacao garante que você não receba mensagens LoRa de outros transceptores LoRa */
   /* Variando de 0 a 0xFF */
   LoRa.setSyncWord(0xF3);
+
+  gpio_put(LED_RED, 0);
+  gpio_put(LED_BLUE, 1);
 }
+
+/*
+ * ===  FUNCTION  ======================================================================
+ *         Name:  gpio_init
+ *  Description:  Funcao responsavel por realizar as configuracoes dos LED de indicacao
+ * =====================================================================================
+ */
+void gpio_init(void) {
+  /* Setando os GPIOs para nivel logico baixo e multiplexando para com saida */
+  gpio_init(LED_BLUE);
+  gpio_set_dir(LED_BLUE, GPIO_OUT);
+  gpio_put(LED_BLUE, 0);
+
+  gpio_init(LED_RED);
+  gpio_set_dir(LED_RED, GPIO_OUT);
+  gpio_put(LED_RED, 0);
+}
+
 
 int main() {
 
   stdio_init_all();
+
+  /* Configurando as portas UART para comunicacao serial */
+  gpio_init();
   /* Inicializando o modulo LoRa. */
   lora_init();
   /* Configurando as portas UART para comunicacao serial */
   uart_config();
-
+  
   /* Salvando os valores atuais dos processadores no modo padrao antes do sleep */
   uint scb_orig = scb_hw->scr;
   uint clock0_orig = clocks_hw->sleep_en0;
@@ -307,7 +331,7 @@ int main() {
     rtc_set_datetime(&t);
 
     /* Entrando em um estado de dormência por um determinado período, neste caso, 30 segundos */
-    rtc_sleep(45, 30);
+    rtc_sleep(45, 15);
 
     /* Aguardando até que o sistema seja acordado */
     while (!awake) {
@@ -349,7 +373,7 @@ int main() {
     /* Imprimindo mensagem via UART para debug */
     uart_puts(UART_PRINT_ID, "Coordenadas enviadas!\n\r");
     uart_default_tx_wait_blocking();
-    sleep_ms(5000);
+    sleep_ms(500);
   }
 
   return 0;

@@ -76,3 +76,10 @@ This library is written for RP2040 C++ SDK.
 | GPIO 26 | RESET |
 
 Default Pinout can be overrided with setPins() function
+
+| Raspberry Pi Pico-Zero | GPS NEO-6M |
+| ----------------- | -------------- |
+| 3.3V | VCC |
+| GND | GND |
+| GPIO 8 | TX |
+| GPIO 9 | RX |

@@ -8,13 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/home/isaac/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/home/isaac/pico/Projetos/meuRabanho-node/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
+  "/home/isaac/pico/pico-sdk/src/rp2_common/boot_stage2/compile_time_choice.S" "/home/isaac/pico/Projetos/pico-zero/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
-  "PICO_BOARD=\"pico_w\""
+  "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
   "PICO_NO_HARDWARE=0"
   "PICO_ON_DEVICE=1"

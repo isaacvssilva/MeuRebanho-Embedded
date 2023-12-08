@@ -1,5 +1,5 @@
 CMakeFiles/app.dir/main.cpp.obj: \
- /home/isaac/pico/Projetos/meuRabanho-node/src/main.cpp \
+ /home/isaac/pico/Projetos/pico-zero/src/main.cpp \
  /usr/include/newlib/stdio.h /usr/include/newlib/_ansi.h \
  /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
  /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
@@ -34,10 +34,10 @@ CMakeFiles/app.dir/main.cpp.obj: \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
  /usr/include/newlib/c++/10.3.1/cassert /usr/include/newlib/assert.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
- /home/isaac/pico/Projetos/meuRabanho-node/build/generated/pico_base/pico/version.h \
+ /home/isaac/pico/Projetos/pico-zero/build/generated/pico_base/pico/version.h \
  /home/isaac/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/isaac/pico/Projetos/meuRabanho-node/build/generated/pico_base/pico/config_autogen.h \
- /home/isaac/pico/pico-sdk/src/boards/include/boards/pico_w.h \
+ /home/isaac/pico/Projetos/pico-zero/build/generated/pico_base/pico/config_autogen.h \
+ /home/isaac/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/isaac/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
@@ -77,7 +77,7 @@ CMakeFiles/app.dir/main.cpp.obj: \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rosc.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rosc.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
- /home/isaac/pico/Projetos/meuRabanho-node/src/../lib/LoRa-RP2040.h \
+ /home/isaac/pico/Projetos/pico-zero/src/../lib/LoRa-RP2040.h \
  /home/isaac/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /home/isaac/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /home/isaac/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
@@ -85,7 +85,7 @@ CMakeFiles/app.dir/main.cpp.obj: \
  /home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
- /home/isaac/pico/Projetos/meuRabanho-node/src/../lib/Print.h \
+ /home/isaac/pico/Projetos/pico-zero/src/../lib/Print.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h \
  /usr/include/newlib/c++/10.3.1/string \
  /usr/include/newlib/c++/10.3.1/bits/stringfwd.h \

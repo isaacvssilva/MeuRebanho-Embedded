@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/meuRabanho-node/src
+CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/pico-zero/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/meuRabanho-node/build
+CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/pico-zero/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles /home/isaac/pico/Projetos/meuRabanho-node/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/pico-zero/build/CMakeFiles /home/isaac/pico/Projetos/pico-zero/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/pico-zero/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,53 +285,53 @@ pico_scanvideo_dpi_timing_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build.make pico_extras/src/rp2_common/pico_scanvideo_dpi/CMakeFiles/pico_scanvideo_dpi_timing_pio_h.dir/build
 .PHONY : pico_scanvideo_dpi_timing_pio_h/fast
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.obj: home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.obj
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.obj: home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.obj
 
 # target to build an object file
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.i: home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.i
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.i: home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.i
 
 # target to preprocess a source file
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.s: home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.s
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.s: home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.s
 
 # target to generate assembly for a file
-home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s
+home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.obj: home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.obj
+home/isaac/pico/Projetos/pico-zero/lib/Print.obj: home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.obj
 
 # target to build an object file
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj
+home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.i: home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.i
+home/isaac/pico/Projetos/pico-zero/lib/Print.i: home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.i
 
 # target to preprocess a source file
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i
+home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i
 
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.s: home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.s
+home/isaac/pico/Projetos/pico-zero/lib/Print.s: home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.s
 
 # target to generate assembly for a file
-home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s
-.PHONY : home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s
+home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s
+.PHONY : home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s
 
 home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.obj: home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj
 .PHONY : home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.obj
@@ -380,102 +380,6 @@ home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.s: home/isaac/pico/p
 home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.s
 .PHONY : home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.s
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-.PHONY : home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
 home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.obj: home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 .PHONY : home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.obj
@@ -749,78 +653,6 @@ home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
 home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
@@ -900,30 +732,6 @@ home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: home
 home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
 home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
@@ -1141,54 +949,6 @@ home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
 home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
@@ -1220,198 +980,6 @@ home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: home/isaac/pico/
 home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
 home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
@@ -1789,30 +1357,6 @@ home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
-
-# target to build an object file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
-
-# target to preprocess a source file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
-
-# target to generate assembly for a file
-home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/app.dir/build.make CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-.PHONY : home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -1858,30 +1402,18 @@ help:
 	@echo "... pico_sd_card_sd_card_pio_h"
 	@echo "... app"
 	@echo "... bs2_default"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.obj"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.i"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.s"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/Print.obj"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/Print.i"
-	@echo "... home/isaac/pico/Projetos/meuRabanho-node/lib/Print.s"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.obj"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.i"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.s"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/Print.obj"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/Print.i"
+	@echo "... home/isaac/pico/Projetos/pico-zero/lib/Print.s"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.obj"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.i"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.s"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.obj"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.i"
 	@echo "... home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.s"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
-	@echo "... home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
 	@echo "... home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.s"
@@ -1916,15 +1448,6 @@ help:
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1935,9 +1458,6 @@ help:
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
@@ -1965,40 +1485,10 @@ help:
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
@@ -2046,9 +1536,6 @@ help:
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
-	@echo "... home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"

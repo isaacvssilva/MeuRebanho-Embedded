@@ -11,10 +11,10 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.
  /usr/include/newlib/sys/features.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /home/isaac/pico/Projetos/meuRabanho-node/build/generated/pico_base/pico/version.h \
+ /home/isaac/pico/Projetos/pico-zero/build/generated/pico_base/pico/version.h \
  /home/isaac/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/isaac/pico/Projetos/meuRabanho-node/build/generated/pico_base/pico/config_autogen.h \
- /home/isaac/pico/pico-sdk/src/boards/include/boards/pico_w.h \
+ /home/isaac/pico/Projetos/pico-zero/build/generated/pico_base/pico/config_autogen.h \
+ /home/isaac/pico/pico-sdk/src/boards/include/boards/pico.h \
  /home/isaac/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
  /home/isaac/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/meuRabanho-node/src
+CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/pico-zero/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/meuRabanho-node/build
+CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/pico-zero/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles /home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/pico_audio_spdif//CMakeFiles/progress.marks
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles 0
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/pico-zero/build/CMakeFiles /home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/pico_audio_spdif//CMakeFiles/progress.marks
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/isaac/pico/Projetos/pico-zero/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/clean
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/preinstall
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/preinstall
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/rule:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/rule
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/rule
 .PHONY : pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ pico_audio_spdif_audio_spdif_pio_h: pico_extras/src/rp2_common/pico_audio_spdif/
 
 # fast build rule for target.
 pico_audio_spdif_audio_spdif_pio_h/fast:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(MAKE) $(MAKESILENT) -f pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build.make pico_extras/src/rp2_common/pico_audio_spdif/CMakeFiles/pico_audio_spdif_audio_spdif_pio_h.dir/build
 .PHONY : pico_audio_spdif_audio_spdif_pio_h/fast
 
 # Help Target
@@ -150,6 +150,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

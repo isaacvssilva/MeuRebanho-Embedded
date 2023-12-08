@@ -11,23 +11,30 @@
 #include "string.h"
 #include "Print.h"
 
-#define PIN_MISO 16
-#define PIN_CS   8
-#define PIN_SCK  18
-#define PIN_MOSI 19
+// #define PIN_MISO 16
+// #define PIN_CS   8
+// #define PIN_SCK  18
+// #define PIN_MOSI 19
 
-#define SPI_PORT spi0
+#define PIN_MISO 12
+#define PIN_CS   13
+#define PIN_SCK  14
+#define PIN_MOSI 15
+#define SPI_PORT spi1
 #define READ_BIT 0x80
 
-#define LORA_DEFAULT_SPI           spi0
+#define LORA_DEFAULT_SPI spi1
 #define LORA_DEFAULT_SPI_FREQUENCY 8E6
-#define LORA_DEFAULT_SS_PIN        8
-#define LORA_DEFAULT_RESET_PIN     9
-#define LORA_DEFAULT_DIO0_PIN      7
+// #define LORA_DEFAULT_SS_PIN        8
+#define LORA_DEFAULT_SS_PIN 13
+// #define LORA_DEFAULT_RESET_PIN     9
+#define LORA_DEFAULT_RESET_PIN 26
+// #define LORA_DEFAULT_DIO0_PIN      7
+#define LORA_DEFAULT_DIO0_PIN 27
 #endif
 
-#define PA_OUTPUT_RFO_PIN          0
-#define PA_OUTPUT_PA_BOOST_PIN     1
+#define PA_OUTPUT_RFO_PIN 0
+#define PA_OUTPUT_PA_BOOST_PIN 1
 
 static void __empty();
 

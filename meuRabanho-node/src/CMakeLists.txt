@@ -37,4 +37,4 @@ pico_add_extra_outputs(${PROJECT_NAME})
 target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_CURRENT_LIST_DIR})
 
 # Vinculando as bibliotecas necessarias, como o SDK Pico e hardware especifico
-target_link_libraries(${PROJECT_NAME} pico_stdlib pico_cyw43_arch_none pico_runtime hardware_gpio hardware_uart hardware_spi hardware_interp hardware_rtc hardware_rosc hardware_sleep)
+target_link_libraries(${PROJECT_NAME} pico_stdlib pico_runtime hardware_gpio hardware_uart hardware_spi hardware_interp hardware_rtc hardware_rosc hardware_sleep)

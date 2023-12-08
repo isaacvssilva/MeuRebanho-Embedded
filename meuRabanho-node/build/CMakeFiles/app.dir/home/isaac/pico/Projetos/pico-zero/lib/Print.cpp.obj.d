@@ -1,5 +1,5 @@
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj: \
- /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp \
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj: \
+ /home/isaac/pico/Projetos/pico-zero/lib/Print.cpp \
  /usr/include/newlib/c++/10.3.1/stdlib.h \
  /usr/include/newlib/c++/10.3.1/cstdlib \
  /usr/include/newlib/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
@@ -111,5 +111,5 @@ CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj: \
  /usr/include/newlib/c++/10.3.1/tr1/poly_hermite.tcc \
  /usr/include/newlib/c++/10.3.1/tr1/poly_laguerre.tcc \
  /usr/include/newlib/c++/10.3.1/tr1/riemann_zeta.tcc \
- /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.h \
+ /home/isaac/pico/Projetos/pico-zero/lib/Print.h \
  /usr/include/newlib/inttypes.h /usr/include/newlib/sys/_intsup.h

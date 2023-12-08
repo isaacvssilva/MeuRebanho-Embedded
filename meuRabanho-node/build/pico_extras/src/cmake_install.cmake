@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/common/cmake_install.cmake")
-  include("/home/isaac/pico/Projetos/meuRabanho-node/build/pico_extras/src/rp2_common/cmake_install.cmake")
+  include("/home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/common/cmake_install.cmake")
+  include("/home/isaac/pico/Projetos/pico-zero/build/pico_extras/src/rp2_common/cmake_install.cmake")
 
 endif()
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/meuRabanho-node/src
+CMAKE_SOURCE_DIR = /home/isaac/pico/Projetos/pico-zero/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/meuRabanho-node/build
+CMAKE_BINARY_DIR = /home/isaac/pico/Projetos/pico-zero/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.dir/depend.make
@@ -70,51 +70,51 @@ include CMakeFiles/app.dir/progress.make
 include CMakeFiles/app.dir/flags.make
 
 CMakeFiles/app.dir/main.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/main.cpp.obj: /home/isaac/pico/Projetos/meuRabanho-node/src/main.cpp
+CMakeFiles/app.dir/main.cpp.obj: /home/isaac/pico/Projetos/pico-zero/src/main.cpp
 CMakeFiles/app.dir/main.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/main.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.obj -MF CMakeFiles/app.dir/main.cpp.obj.d -o CMakeFiles/app.dir/main.cpp.obj -c /home/isaac/pico/Projetos/meuRabanho-node/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.dir/main.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/main.cpp.obj -MF CMakeFiles/app.dir/main.cpp.obj.d -o CMakeFiles/app.dir/main.cpp.obj -c /home/isaac/pico/Projetos/pico-zero/src/main.cpp
 
 CMakeFiles/app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/main.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/meuRabanho-node/src/main.cpp > CMakeFiles/app.dir/main.cpp.i
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/pico-zero/src/main.cpp > CMakeFiles/app.dir/main.cpp.i
 
 CMakeFiles/app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/main.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/meuRabanho-node/src/main.cpp -o CMakeFiles/app.dir/main.cpp.s
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/pico-zero/src/main.cpp -o CMakeFiles/app.dir/main.cpp.s
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj: /home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj -MF CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj.d -o CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj -c /home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj: /home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj -MF CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj.d -o CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj -c /home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp > CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.i
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp > CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.i
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp -o CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.s
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp -o CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.s
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj: /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj -MF CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj.d -o CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj -c /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj: CMakeFiles/app.dir/flags.make
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj: /home/isaac/pico/Projetos/pico-zero/lib/Print.cpp
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj -MF CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj.d -o CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj -c /home/isaac/pico/Projetos/pico-zero/lib/Print.cpp
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp > CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.i
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/isaac/pico/Projetos/pico-zero/lib/Print.cpp > CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.i
 
-CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s"
-	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp -o CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.s
+CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s"
+	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/isaac/pico/Projetos/pico-zero/lib/Print.cpp -o CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.s
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platfor
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -170,7 +170,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_claim/claim.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -184,7 +184,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -197,7 +197,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -211,7 +211,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_irq/irq_hand
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -225,7 +225,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -239,7 +239,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -253,7 +253,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmak
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -267,7 +267,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_sync/critical_sectio
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -281,7 +281,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/time.c.s: cmake
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -295,7 +295,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_time/timeout_helper.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -309,7 +309,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_timer/timer.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -323,7 +323,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/datetime.c.s: c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -337,7 +337,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmak
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj: /home/isaac/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /home/isaac/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -351,7 +351,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/common/pico_util/queue.c.s: cmak
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -365,7 +365,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -379,7 +379,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_clocks/clock
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -393,7 +393,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -407,7 +407,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -421,7 +421,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_watchdog/wat
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -434,7 +434,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -448,7 +448,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_divider/divi
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -462,7 +462,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -475,7 +475,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -489,7 +489,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -502,7 +502,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -515,7 +515,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_divider/divider.
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -529,7 +529,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_ae
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -543,7 +543,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_in
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -556,7 +556,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_ma
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -569,7 +569,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_double/double_v1
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -582,7 +582,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_i
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -596,7 +596,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_aeab
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -610,7 +610,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_init
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -623,7 +623,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_math
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -637,7 +637,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_float/float_v1_r
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -650,7 +650,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_malloc/pico_mall
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -663,7 +663,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -677,7 +677,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/cr
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/usr/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -691,7 +691,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/ne
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -705,7 +705,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/bi
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -719,7 +719,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -730,276 +730,10 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj -c /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj -c /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj -c /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj -c /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/app.dir/flags.make
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c > CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
-
-CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s"
-	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
-
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
@@ -1013,7 +747,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.s:
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.i: cmake_force
@@ -1027,7 +761,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/inter
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: /home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj -c /home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
@@ -1041,7 +775,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s:
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj: /home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.obj -c /home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc.c.i: cmake_force
@@ -1055,7 +789,7 @@ CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/hardware_rosc/rosc
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj: CMakeFiles/app.dir/flags.make
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj: /home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj: CMakeFiles/app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj -MF CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj.d -o CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.obj -c /home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c
 
 CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c.i: cmake_force
@@ -1069,8 +803,8 @@ CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_sleep/sleep.c
 # Object files for target app
 app_OBJECTS = \
 "CMakeFiles/app.dir/main.cpp.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj" \
+"CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj" \
+"CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
@@ -1116,25 +850,6 @@ app_OBJECTS = \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj" \
-"CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj" \
 "CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj" \
@@ -1145,8 +860,8 @@ app_OBJECTS = \
 app_EXTERNAL_OBJECTS =
 
 app.elf: CMakeFiles/app.dir/main.cpp.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/LoRa-RP2040.cpp.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/Projetos/meuRabanho-node/lib/Print.cpp.obj
+app.elf: CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/LoRa-RP2040.cpp.obj
+app.elf: CMakeFiles/app.dir/home/isaac/pico/Projetos/pico-zero/lib/Print.cpp.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
@@ -1192,25 +907,6 @@ app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standar
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
-app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_interp/interp.c.obj
 app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.obj
@@ -1219,13 +915,13 @@ app.elf: CMakeFiles/app.dir/home/isaac/pico/pico-extras/src/rp2_common/pico_slee
 app.elf: CMakeFiles/app.dir/build.make
 app.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 app.elf: CMakeFiles/app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable app.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/isaac/pico/Projetos/pico-zero/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Linking CXX executable app.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/arm-none-eabi-objcopy -Oihex /home/isaac/pico/Projetos/meuRabanho-node/build/app.elf app.hex
-	/usr/bin/arm-none-eabi-objcopy -Obinary /home/isaac/pico/Projetos/meuRabanho-node/build/app.elf app.bin
-	/usr/bin/arm-none-eabi-objdump -h /home/isaac/pico/Projetos/meuRabanho-node/build/app.elf > app.dis
-	/usr/bin/arm-none-eabi-objdump -d /home/isaac/pico/Projetos/meuRabanho-node/build/app.elf >> app.dis
-	elf2uf2/elf2uf2 /home/isaac/pico/Projetos/meuRabanho-node/build/app.elf app.uf2
+	/usr/bin/arm-none-eabi-objcopy -Oihex /home/isaac/pico/Projetos/pico-zero/build/app.elf app.hex
+	/usr/bin/arm-none-eabi-objcopy -Obinary /home/isaac/pico/Projetos/pico-zero/build/app.elf app.bin
+	/usr/bin/arm-none-eabi-objdump -h /home/isaac/pico/Projetos/pico-zero/build/app.elf > app.dis
+	/usr/bin/arm-none-eabi-objdump -d /home/isaac/pico/Projetos/pico-zero/build/app.elf >> app.dis
+	elf2uf2/elf2uf2 /home/isaac/pico/Projetos/pico-zero/build/app.elf app.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/app.dir/build: app.elf
@@ -1236,6 +932,6 @@ CMakeFiles/app.dir/clean:
 .PHONY : CMakeFiles/app.dir/clean
 
 CMakeFiles/app.dir/depend:
-	cd /home/isaac/pico/Projetos/meuRabanho-node/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/pico/Projetos/meuRabanho-node/src /home/isaac/pico/Projetos/meuRabanho-node/src /home/isaac/pico/Projetos/meuRabanho-node/build /home/isaac/pico/Projetos/meuRabanho-node/build /home/isaac/pico/Projetos/meuRabanho-node/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/isaac/pico/Projetos/pico-zero/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/isaac/pico/Projetos/pico-zero/src /home/isaac/pico/Projetos/pico-zero/src /home/isaac/pico/Projetos/pico-zero/build /home/isaac/pico/Projetos/pico-zero/build /home/isaac/pico/Projetos/pico-zero/build/CMakeFiles/app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.dir/depend
 
